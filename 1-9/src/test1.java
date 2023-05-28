@@ -12,8 +12,11 @@ public class test1 {
 		
 		System.out.println(bit*2);
 		
-//		3.boolean型の変数の値に不正な文字列比較を入れてfalseを出力してください。	
-		boolean b = false;
+//		3.boolean型の変数の値に不正な文字列比較を入れてfalseを出力してください。
+		String a = "あいう";
+		String c = "えお";
+		
+		boolean b =(a.equals(c));
 		
 		System.out.println(b);
 	}
