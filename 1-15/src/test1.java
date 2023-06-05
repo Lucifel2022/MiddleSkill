@@ -25,8 +25,8 @@ public class test1 {
 		// 改行
 		System.out.println("問４");
 		// 問4のメソッドを呼び出して出力してください（引数,配列[5,3,1,9,4,8]）
-		int[] a = { 5, 3, 1, 9, 4, 8 };
-		int minIndex = getMin(a);
+		int[] x = { 5, 3, 1, 9, 4, 8 };
+		int minIndex = getMin(x);
 
 		System.out.println(minIndex);
 
